@@ -5,11 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { QuestionsComponent } from './questions/questions.component';
+import { QuestionFormComponent } from './questions/question-form/question-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionsComponent
+    QuestionsComponent,
+    QuestionsComponent,
+    QuestionFormComponent
   ],
   imports: [
     BrowserModule,
